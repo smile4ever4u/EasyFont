@@ -30,8 +30,9 @@ The Class names are composed with "Easy" + the usual Android class name: **Easy*
 
 To use the new "font" attribute, you'll have to add this in top of your layout:
 
+```xml
 xmlns:app="http://schemas.android.com/apk/res-auto"
-
+```
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
@@ -41,7 +42,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     android:orientation="vertical">
     
-    <com.weapplinse.easyfont.EasyTextView
+    <com.vishalsojitra.easyfont.EasyTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World"
@@ -66,7 +67,7 @@ To use the custom fonts in your style, simply add the "font" attribute.
 Then use it everywhere, no more need to define the "font" attribute directly.
 
 ```xml
-<com.weapplinse.easyfont.EasyTextView
+<com.vishalsojitra.easyfont.EasyTextView
     style="@style/CustomTitleStyle"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
