@@ -7,7 +7,7 @@ A manager handles the **caching** of the fonts so that they are loaded only once
 
 It is easy to integrate with **gradle**.
 
-
+[![](https://jitpack.io/v/vishal259/EasyFont.svg)](https://jitpack.io/#vishal259/EasyFont)
 
 ## Usage
 
