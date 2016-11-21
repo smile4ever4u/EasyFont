@@ -1,5 +1,7 @@
 # Easy Fonts for Android
 [![](https://jitpack.io/v/vishal259/EasyFont.svg)](https://jitpack.io/#vishal259/EasyFont)
+
+
 **Easy Fonts** is an Android Studio Library which makes it easy to use **Custom Fonts** (TTF or OTF) in your apps. It handles the Android text widgets (**TextView, EditText, CheckBox, RadioButton...**). You can add any other widgets easily, including your **own classes**!
 
 You can use **Styles**, and see the result directly in the **Layout Editor**!
